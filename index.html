@@ -4,11 +4,20 @@
 	<title>Portfolio</title>
 	<style>
 		/* add some basic styles */
+		body {
+			margin: 0;
+			font-family: sans-serif;
+			line-height: 1.5;
+			background-color: #f9f9f9;
+			color: #333;
+		}
+
 		header {
 			background-color: #333;
 			color: #fff;
 			padding: 10px;
 			text-align: center;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 		}
 
 		nav {
@@ -22,6 +31,23 @@
 		nav a {
 			color: #fff;
 			text-decoration: none;
+			padding: 10px;
+			transition: background-color 0.3s ease;
+		}
+
+		nav a:hover {
+			background-color: #444;
+		}
+
+		main {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #fff;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+			border-radius: 5px;
+			margin-top: 20px;
+			margin-bottom: 20px;
 		}
 
 		footer {
@@ -29,6 +55,16 @@
 			color: #fff;
 			padding: 10px;
 			text-align: center;
+			box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+		}
+
+		footer p {
+			margin: 0;
+		}
+
+		footer span {
+			font-size: 1.5em;
+			vertical-align: middle;
 		}
 	</style>
 </head>
@@ -48,7 +84,7 @@
 		<p>Welcome folks!</p>
 	</main>
 	<footer>
-		<p>&copy; 2023 JAYCEE</p>
+		<p> JC &copy; 2023 </p>
 	</footer>
 </body>
 </html>
